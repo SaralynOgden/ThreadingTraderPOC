@@ -13,4 +13,4 @@ class Order():
         self.deviation = deviation
     
     def __str__(self) -> str:
-        return f'SymbolName: {self.symbolName}, Signal: {self.signal}, Price: {self.price}, Deviation: {self.deviation}'
+        return f'SymbolName: {self.symbolName}, Price: {self.price}, Signal: {self.signal}'
